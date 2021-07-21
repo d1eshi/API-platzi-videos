@@ -1,4 +1,4 @@
-const moviesMock = [
+const moviesMock = 
   {
     'mylist': [],
     "trends": [
@@ -162,6 +162,6 @@ const moviesMock = [
       }
     ]
   }
-]
+
 
 module.exports = moviesMock
