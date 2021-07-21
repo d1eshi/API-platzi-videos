@@ -10,7 +10,7 @@ app.use(cors())
 // use the body parser
 app.use(express.json())
 
-let moviesMock = require('./movies')
+let moviesMock = require('./moviesMock')
 const uuidOptions = require('./utils/uuid')
 
 app.get('/', (req, res) => {
